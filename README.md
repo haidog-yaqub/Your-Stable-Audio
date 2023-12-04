@@ -1,8 +1,10 @@
 # Your-Stable-Audio
 
-The unofficial code for [Stable Audio: Fast Timing-Conditioned Latent Audio Diffusion](https://stability.ai/research/stable-audio-efficient-timing-latent-diffusion).
+The unofficial code for [Stable Audio: Fast Timing-Conditioned Latent Audio Diffusion](https://stability.ai/research/stable-audio-efficient-timing-latent-diffusion)
 
-Diffusion Schedulers are Built on 🤗 [Diffusers](https://github.com/huggingface/diffusers).
+Diffusion Schedulers are Built on 🤗 [Diffusers](https://github.com/huggingface/diffusers)
+
+DDP and AMP are Built on 🚀[Accelerate](https://github.com/huggingface/accelerate)
 
 --------------------
 <img src="img\yourstableaudio.jpg" width="300px">
@@ -84,7 +86,7 @@ This repo is inspired by:
 
 We borrow code from following repos:
 
- `Autoencoder`: [Encodec](https://github.com/facebookresearch/encodec)
+ `Autoencoder`: [EnCodec](https://github.com/facebookresearch/encodec)
 
  `1D-UNet`: [audio-diffusion-pytorch](https://github.com/archinetai/audio-diffusion-pytorch)
 
