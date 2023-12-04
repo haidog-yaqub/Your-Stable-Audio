@@ -2,9 +2,9 @@
 
 The unofficial code for [Stable Audio: Fast Timing-Conditioned Latent Audio Diffusion](https://stability.ai/research/stable-audio-efficient-timing-latent-diffusion)
 
-Diffusion Schedulers are Built on 🤗 [Diffusers](https://github.com/huggingface/diffusers)
+Diffusion Schedulers are based on 🤗 [Diffusers](https://github.com/huggingface/diffusers)
 
-DDP and AMP are Built on 🚀[Accelerate](https://github.com/huggingface/accelerate)
+DDP and AMP are built on 🚀[Accelerate](https://github.com/huggingface/accelerate)
 
 --------------------
 <img src="img\yourstableaudio.jpg" width="300px">
@@ -41,7 +41,7 @@ If you find the code useful for your research, please consider citing
 This repo is inspired by:
 
 ```bibtex
-@misc{Stability2023stableaudio,
+@misc{Stability2023stable,
   title = {Stable Audio: Fast Timing-Conditioned Latent Audio Diffusion},
   howpublished = {https://stability.ai/research/stable-audio-efficient-timing-latent-diffusion},
   year = {2023},
