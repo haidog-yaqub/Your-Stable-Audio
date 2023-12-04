@@ -119,8 +119,7 @@ if __name__ == '__main__':
                                   )
     loss_func = torch.nn.MSELoss()
 
-    unet, autoencoder, tokenizer, text_encoder, optimizer, train_loader = \
-        accelerator.prepare(unet, autoencoder, tokenizer, text_encoder, optimizer, train_loader)
+    unet, optimizer, train_loader = accelerator.prepare(unet, optimizer, train_loader)
 
     global_step = 0
     losses = 0
