@@ -13,7 +13,7 @@ Your-Stable-Audio (💻WIP)
 
 - [TODO List](#todo-list)
 - [References](#references)
-- [Acknowledgement][#acknowledgement]
+- [Acknowledgement](#acknowledgement)
 
 # TODO List
 
