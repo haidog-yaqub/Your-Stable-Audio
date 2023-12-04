@@ -28,7 +28,7 @@ If you find the code useful for your research, please consider citing:
 ```bibtex
 @article{hai2023dpm,
   title={DPM-TSE: A Diffusion Probabilistic Model for Target Sound Extraction},
-  author={Hai, Jiarui and Wang, Helin and Yang, Dongchao and Thakkar, Karan and Chong, Dading and Dehak, Najim and Elhilali, Mounya},
+  author={Hai, Jiarui and Wang, Helin and Yang, Dongchao and Thakkar, Karan and Dehak, Najim and Elhilali, Mounya},
   journal={arXiv preprint arXiv:2310.04567},
   year={2023}
 }
