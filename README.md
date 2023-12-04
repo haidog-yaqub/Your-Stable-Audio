@@ -20,8 +20,9 @@ Your-Stable-Audio (💻WIP)
 - [x] Classifier-free diffusion guidance
 - [x] Fixed diffusion: [Common Diffusion Noise Schedules and Sample Steps are Flawed](https://arxiv.org/abs/2305.08891)
 - [x] Add training examples for AudioCaps Dataset
-- [ ] Upload pre-trained weights and demos
+- [ ] Upload model weights and demos
 - [ ] Update evaluation metric
+- [ ] Add Timing Embeddings proposed by Stable Audio
 - [ ] Support other tasks: Sound Extraction, Editing, Inpainting, Super-Resolution, etc.
 
 # References
