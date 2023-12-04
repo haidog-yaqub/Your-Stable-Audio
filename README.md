@@ -23,7 +23,7 @@ Your-Stable-Audio (💻WIP)
 
 # References
 
-If you find the code useful for your research, please consider citing
+If you find the code useful for your research, please consider citing:
 
 ```bibtex
 @article{hai2023dpm,
