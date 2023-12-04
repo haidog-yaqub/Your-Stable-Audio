@@ -1,10 +1,6 @@
 # Your-Stable-Audio
 
-UnOfficial PyTorch implementation of [Stable Audio: Fast Timing-Conditioned Latent Audio Diffusion](https://stability.ai/research/stable-audio-efficient-timing-latent-diffusion)
-
-Diffusion Schedulers are based on 🤗 [Diffusers](https://github.com/huggingface/diffusers)
-
-DDP and AMP are built on 🚀[Accelerate](https://github.com/huggingface/accelerate)
+- UnOfficial PyTorch implementation of [Stable Audio: Fast Timing-Conditioned Latent Audio Diffusion](https://stability.ai/research/stable-audio-efficient-timing-latent-diffusion)
 
 --------------------
 <img src="img\yourstableaudio.jpg" width="300px">
@@ -89,8 +85,12 @@ This repo is inspired by:
 
 We borrow code from following repos:
 
- `Autoencoder`: [EnCodec](https://github.com/facebookresearch/encodec)
+- `Autoencoder`: [EnCodec](https://github.com/facebookresearch/encodec)
 
- `1D-UNet`: [audio-diffusion-pytorch](https://github.com/archinetai/audio-diffusion-pytorch)
+- `1D-UNet`: [audio-diffusion-pytorch](https://github.com/archinetai/audio-diffusion-pytorch)
 
- `Fixed Diffusion`: [DPM-TSE](https://github.com/haidog-yaqub/DPMTSE/tree/mainhttps://github.com/haidog-yaqub/DPMTSE/tree/main)
+- `Fixed Diffusion`: [DPM-TSE](https://github.com/haidog-yaqub/DPMTSE/tree/mainhttps://github.com/haidog-yaqub/DPMTSE/tree/main)
+
+ - `Diffusion Schedulers` are based on 🤗 [Diffusers](https://github.com/huggingface/diffusers)
+
+- `DDP` and `AMP` are built on 🚀[Accelerate](https://github.com/huggingface/accelerate)
