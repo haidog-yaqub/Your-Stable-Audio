@@ -1,6 +1,6 @@
 # Your-Stable-Audio
 
-The unofficial code for [Stable Audio: Fast Timing-Conditioned Latent Audio Diffusion](https://stability.ai/research/stable-audio-efficient-timing-latent-diffusion)
+UnOfficial pytorch implementation of [Stable Audio: Fast Timing-Conditioned Latent Audio Diffusion](https://stability.ai/research/stable-audio-efficient-timing-latent-diffusion)
 
 Diffusion Schedulers are based on 🤗 [Diffusers](https://github.com/huggingface/diffusers)
 
