@@ -82,6 +82,7 @@ This repo is inspired by:
 ```
 
 # Acknowledgement
+This repo is done in collaboration with [@carankt](https://github.com/carankt).
 
 We borrow code from following repos:
 
@@ -90,6 +91,8 @@ We borrow code from following repos:
 - `1D-UNet`: [audio-diffusion-pytorch](https://github.com/archinetai/audio-diffusion-pytorch)
 
 - `Fixed Diffusion`: [DPM-TSE](https://github.com/haidog-yaqub/DPMTSE/tree/main)
+
+We use following tools:
 
  - `Diffusion Schedulers` are based on 🤗 [Diffusers](https://github.com/huggingface/diffusers)
 
