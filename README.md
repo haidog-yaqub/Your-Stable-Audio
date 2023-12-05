@@ -2,7 +2,6 @@
 
 UnOfficial PyTorch implementation of [Stable Audio: Fast Timing-Conditioned Latent Audio Diffusion](https://stability.ai/research/stable-audio-efficient-timing-latent-diffusion)
 
---------------------
 <img src="img\header.png">
 
 Your-Stable-Audio (💻WIP)
