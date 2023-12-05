@@ -90,7 +90,7 @@ We borrow code from following repos:
 
 - `1D-UNet`: [audio-diffusion-pytorch](https://github.com/archinetai/audio-diffusion-pytorch)
 
-- `Fixed Diffusion`: [DPM-TSE](https://github.com/haidog-yaqub/DPMTSE/tree/main)
+- `Utils` and `fixed diffusion` for audio diffusion models: [DPM-TSE](https://github.com/haidog-yaqub/DPMTSE/tree/main)
 
 We use following tools:
 
