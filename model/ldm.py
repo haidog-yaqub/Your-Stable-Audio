@@ -122,7 +122,7 @@ class StableAudio(nn.Module):
 if __name__ == '__main__':
     tokenizer = AutoTokenizer.from_pretrained('google/flan-t5-base')
     text_encoder = T5EncoderModel.from_pretrained('google/flan-t5-base')
-    batch = tokenizer(['yes, you right!', 'no, i dont know'],
+    batch = tokenizer(['yes, you are right!', 'no, i dont know'],
                       max_length=tokenizer.model_max_length,
                       padding=True, truncation=True, return_tensors="pt")
     text, text_mask = batch.input_ids, batch.attention_mask
