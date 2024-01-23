@@ -5,7 +5,7 @@ from einops import repeat
 from torch import Tensor
 from transformers import AutoTokenizer, T5EncoderModel, AutoModel
 
-from unet import UNet1d
+from .unet import UNet1d
 
 
 class FixedEmbedding(nn.Module):
