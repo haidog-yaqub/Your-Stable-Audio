@@ -76,7 +76,7 @@ if __name__ == '__main__':
     train_set = AudioCaps(params.data.train_dir, params.data.train_meta,
                           params.data.seg_length, params.data.sr)
 
-    train_loader = DataLoader(train_set, num_workers=args.num_workers, batch_size=args.batch_size)
+    train_loader = DataLoader(train_set, num_workers=args.num_workers, batch_size=args.batch_size, shuffle=True)
 
     # use accelerator for multi-gpu training
     accelerator = Accelerator(mixed_precision=args.amp)
